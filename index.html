@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>404 Not Found</title>
+    <style>
+        body {
+            font-family: "Times New Roman", Times, serif;
+            background: #fff;
+            color: #000;
+            margin: 8px;
+        }
+        h1 {
+            font-size: 2em;
+            font-weight: bold;
+            margin: 0.67em 0;
+        }
+        hr {
+            border: 0;
+            border-top: 1px solid #000;
+        }
+    </style>
+</head>
+<body>
+<h1>Not Found</h1>
+<p>The requested URL was not found on this server.</p>
+<hr>
+<script>
+    document.getElementById("url").textContent = location.pathname;
+</script>
+</body>
+</html>
